@@ -166,6 +166,28 @@ a:visited {
     margin: 0 110px; /* This adds 10px of space to the left and right of each image */
 }
 
+@media only screen and (max-width: 1100px) {
+    #main, #patreon {
+        width: 90%;
+    }
+    #footer {
+        width: 90%;
+    }
+    #footer img {
+        margin: 0 40px;
+    }
+    #serverlist {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 50px;
+    }
+    .tiers {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 50px;
+    }
+
+}
 #footer a {
     text-decoration: none;
 }
