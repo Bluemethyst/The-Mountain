@@ -179,12 +179,12 @@ a:visited {
     #serverlist {
         display: grid;
         grid-template-columns: repeat(1, 3fr);
-        gap: 50px;
+        gap: 0px;
     }
     .tiers {
         display: grid;
         grid-template-columns: repeat(1, 3fr);
-        gap: 50px;
+        gap: 0px;
     }
 
 }
