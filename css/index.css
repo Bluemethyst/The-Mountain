@@ -4,7 +4,7 @@
     --background-color: #16181c;
     --secondary-color: #26292f;
     --text-color: #dff9fb;
-    --accent-color: #ea5c45;
+    --accent-color: #f86f2c;
     --link-color: #4791b1;
 }
 
@@ -37,7 +37,7 @@ header {
 
 hr {
     border: none;
-    border-top: 5px solid #ea5c45;
+    border-top: 5px solid var(--accent-color);
 }
 
 /* unvisited link */
@@ -99,7 +99,7 @@ a:visited {
 }
 
 .join-button:hover {
-    background-color: #a53f30; /* Change the background color */
+    background-color: #9e4b22; /* Change the background color */
     transform: scale(1.04);
 }
 
